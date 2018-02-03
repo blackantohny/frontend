@@ -1,0 +1,44 @@
+.footer-content{
+    padding-top: 15px;
+  }
+  footer {
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color:aqua;
+    position:absolute;
+    text-align: center;
+  }
+  .header-content{
+    padding-top: 5px;
+  }
+
+  .header {
+    background-color: green; 
+    top: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+
+  }
+  .parent {
+    border: 1px solid black;
+    width: 100%;
+    background: #D0E4F5 url("background.jpg") no-repeat scroll 0 0;
+    color:white;
+  }
+  .column-left {
+    border: 1px solid blue;
+    width: 45%;
+    text-align: center; 
+  }
+  .column-left a {
+      color: white;
+  }
+  .column-right {
+    border: 1px solid red;
+    width: 52%;
+  }
+  .column {
+    display: inline-block;
+  }
