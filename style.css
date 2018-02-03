@@ -24,7 +24,8 @@
   .parent {
     border: 1px solid black;
     width: 100%;
-    background: #D0E4F5 url("background.jpg") no-repeat scroll 0 0;
+    height: calc(100vh - 100px);
+    background: #D0E4F5 url("4235932-cool-background.jpg") no-repeat scroll 0px 0px;
     color:white;
   }
   .column-left {
@@ -40,5 +41,7 @@
     width: 52%;
   }
   .column {
+    float: left;
+    height: calc(100vh - 100px);
     display: inline-block;
   }
